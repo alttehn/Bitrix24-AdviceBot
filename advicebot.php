@@ -15,7 +15,7 @@
 // writeToLog($_REQUEST, 'AdviceBot Event Query');
 
 // Заменить на свой URL
-define('SITE_URL', 'https://raw.githubusercontent.com/alttehn/Bitrix24-AdviceBot/master/');
+define('SITE_URL', 'https://raw.githubusercontent.com/alttehn/Bitrix24-AdviceBot/master');
 
 $appsConfig     = [];
 $configFileName = '/config_' . trim(str_replace('.', '_', $_REQUEST['auth']['domain'])) . '.php';
